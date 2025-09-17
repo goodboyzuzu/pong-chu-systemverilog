@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "**/*.vvp": true,
+        "**/*.vcd": true
+    }
+}

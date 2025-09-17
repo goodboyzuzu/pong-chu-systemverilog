@@ -1,0 +1,420 @@
+$date
+	Wed Sep 17 16:12:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module binary_decoder_4to16_tb $end
+$var wire 16 ! test_out [15:0] $end
+$var reg 4 " binary_in [3:0] $end
+$var reg 1 # en $end
+$scope module uut $end
+$var wire 4 $ binary_in [3:0] $end
+$var wire 1 # en $end
+$var wire 16 % one_hot_out [15:0] $end
+$var wire 4 & en_dec [3:0] $end
+$scope begin decoders_generate[0] $end
+$var parameter 2 ' i $end
+$scope module dec_2to4_insts $end
+$var wire 2 ( binary_in [1:0] $end
+$var wire 1 ) en $end
+$var reg 4 * one_hot_out [3:0] $end
+$upscope $end
+$upscope $end
+$scope begin decoders_generate[1] $end
+$var parameter 2 + i $end
+$scope module dec_2to4_insts $end
+$var wire 2 , binary_in [1:0] $end
+$var wire 1 - en $end
+$var reg 4 . one_hot_out [3:0] $end
+$upscope $end
+$upscope $end
+$scope begin decoders_generate[2] $end
+$var parameter 3 / i $end
+$scope module dec_2to4_insts $end
+$var wire 2 0 binary_in [1:0] $end
+$var wire 1 1 en $end
+$var reg 4 2 one_hot_out [3:0] $end
+$upscope $end
+$upscope $end
+$scope begin decoders_generate[3] $end
+$var parameter 3 3 i $end
+$scope module dec_2to4_insts $end
+$var wire 2 4 binary_in [1:0] $end
+$var wire 1 5 en $end
+$var reg 4 6 one_hot_out [3:0] $end
+$upscope $end
+$upscope $end
+$scope module dec_en $end
+$var wire 2 7 binary_in [1:0] $end
+$var wire 1 # en $end
+$var reg 4 8 one_hot_out [3:0] $end
+$upscope $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 9 i [31:0] $end
+$upscope $end
+$scope begin $ivl_for_loop1 $end
+$var integer 32 : i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 3
+b10 /
+b1 +
+b0 '
+$end
+#0
+$dumpvars
+b0 :
+b0 9
+b1 8
+b0 7
+b0 6
+05
+b0 4
+b0 2
+01
+b0 0
+b0 .
+0-
+b0 ,
+b1 *
+1)
+b0 (
+b1 &
+b1 %
+b0 $
+1#
+b0 "
+b1 !
+$end
+#10
+b10 !
+b10 %
+b10 *
+b1 (
+b1 ,
+b1 0
+b1 4
+b1 "
+b1 $
+b1 9
+#20
+b100 !
+b100 %
+b100 *
+b10 (
+b10 ,
+b10 0
+b10 4
+b10 "
+b10 $
+b10 9
+#30
+b1000 !
+b1000 %
+b1000 *
+b11 (
+b11 ,
+b11 0
+b11 4
+b11 "
+b11 $
+b11 9
+#40
+b1 .
+1-
+0)
+b10000 !
+b10000 %
+b0 *
+b10 &
+b10 8
+b0 (
+b0 ,
+b0 0
+b0 4
+b1 7
+b100 "
+b100 $
+b100 9
+#50
+b100000 !
+b100000 %
+b10 .
+b1 (
+b1 ,
+b1 0
+b1 4
+b101 "
+b101 $
+b101 9
+#60
+b1000000 !
+b1000000 %
+b100 .
+b10 (
+b10 ,
+b10 0
+b10 4
+b110 "
+b110 $
+b110 9
+#70
+b10000000 !
+b10000000 %
+b1000 .
+b11 (
+b11 ,
+b11 0
+b11 4
+b111 "
+b111 $
+b111 9
+#80
+b1 2
+11
+0-
+b100000000 !
+b100000000 %
+b0 .
+b100 &
+b100 8
+b0 (
+b0 ,
+b0 0
+b0 4
+b10 7
+b1000 "
+b1000 $
+b1000 9
+#90
+b1000000000 !
+b1000000000 %
+b10 2
+b1 (
+b1 ,
+b1 0
+b1 4
+b1001 "
+b1001 $
+b1001 9
+#100
+b10000000000 !
+b10000000000 %
+b100 2
+b10 (
+b10 ,
+b10 0
+b10 4
+b1010 "
+b1010 $
+b1010 9
+#110
+b100000000000 !
+b100000000000 %
+b1000 2
+b11 (
+b11 ,
+b11 0
+b11 4
+b1011 "
+b1011 $
+b1011 9
+#120
+b1 6
+15
+01
+b1000000000000 !
+b1000000000000 %
+b0 2
+b1000 &
+b1000 8
+b0 (
+b0 ,
+b0 0
+b0 4
+b11 7
+b1100 "
+b1100 $
+b1100 9
+#130
+b10000000000000 !
+b10000000000000 %
+b10 6
+b1 (
+b1 ,
+b1 0
+b1 4
+b1101 "
+b1101 $
+b1101 9
+#140
+b100000000000000 !
+b100000000000000 %
+b100 6
+b10 (
+b10 ,
+b10 0
+b10 4
+b1110 "
+b1110 $
+b1110 9
+#150
+b1000000000000000 !
+b1000000000000000 %
+b1000 6
+b11 (
+b11 ,
+b11 0
+b11 4
+b1111 "
+b1111 $
+b1111 9
+#160
+05
+b0 !
+b0 %
+b0 6
+b0 &
+b0 8
+b0 (
+b0 ,
+b0 0
+b0 4
+b0 7
+0#
+b0 "
+b0 $
+b10000 9
+#170
+b1 (
+b1 ,
+b1 0
+b1 4
+b1 "
+b1 $
+b1 :
+#180
+b10 (
+b10 ,
+b10 0
+b10 4
+b10 "
+b10 $
+b10 :
+#190
+b11 (
+b11 ,
+b11 0
+b11 4
+b11 "
+b11 $
+b11 :
+#200
+b0 (
+b0 ,
+b0 0
+b0 4
+b1 7
+b100 "
+b100 $
+b100 :
+#210
+b1 (
+b1 ,
+b1 0
+b1 4
+b101 "
+b101 $
+b101 :
+#220
+b10 (
+b10 ,
+b10 0
+b10 4
+b110 "
+b110 $
+b110 :
+#230
+b11 (
+b11 ,
+b11 0
+b11 4
+b111 "
+b111 $
+b111 :
+#240
+b0 (
+b0 ,
+b0 0
+b0 4
+b10 7
+b1000 "
+b1000 $
+b1000 :
+#250
+b1 (
+b1 ,
+b1 0
+b1 4
+b1001 "
+b1001 $
+b1001 :
+#260
+b10 (
+b10 ,
+b10 0
+b10 4
+b1010 "
+b1010 $
+b1010 :
+#270
+b11 (
+b11 ,
+b11 0
+b11 4
+b1011 "
+b1011 $
+b1011 :
+#280
+b0 (
+b0 ,
+b0 0
+b0 4
+b11 7
+b1100 "
+b1100 $
+b1100 :
+#290
+b1 (
+b1 ,
+b1 0
+b1 4
+b1101 "
+b1101 $
+b1101 :
+#300
+b10 (
+b10 ,
+b10 0
+b10 4
+b1110 "
+b1110 $
+b1110 :
+#310
+b11 (
+b11 ,
+b11 0
+b11 4
+b1111 "
+b1111 $
+b1111 :
+#320
+b10000 :

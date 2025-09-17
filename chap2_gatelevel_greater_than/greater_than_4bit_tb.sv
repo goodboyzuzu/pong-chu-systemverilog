@@ -17,7 +17,7 @@ module greater_than_4bit_tb;
         for (int i=0; i<16; i++) begin
             for (int j=0; j<16; j++) begin
                 i0 = i; i1 = j; #10;
-                $monitor("i0=%b i1=%b gt=%b", i0, i1, test_out);
+                $display("i0=%b i1=%b gt=%b", i0, i1, test_out);
             end
         end
         $finish;

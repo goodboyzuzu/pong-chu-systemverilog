@@ -1,0 +1,45 @@
+$date
+	Tue Sep 16 23:32:33 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module eq1_tb $end
+$var wire 1 ! test_out $end
+$var reg 1 " i0 $end
+$var reg 1 # i1 $end
+$scope module uut $end
+$var wire 1 ! eq $end
+$var wire 1 " i0 $end
+$var wire 1 # i1 $end
+$var wire 1 $ p0 $end
+$var wire 1 % p1 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+1$
+0#
+0"
+1!
+$end
+#1000
+0!
+0$
+1#
+#2000
+0#
+1"
+#3000
+1!
+1%
+1#
+#4000

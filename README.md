@@ -13,3 +13,19 @@ procedural vs continuous assignments
 - continuous: outside procedural blocks, using assign keyword
 - procedural assignments can be blocking (=) or non-blocking (<=)
 - continuous assignments use assign keyword and are always active
+
+# constant
+localparam: constant within module
+module();
+    localparam int WIDTH = 8;
+endmodule
+
+parameter: constant that can be overridden during module instantiation
+module #(parameter int WIDTH = 8) ();
+
+# replicate structure
+generate
+    genvar i;
+    for (i = 0; i < 4; i++) begin : gen_block
+endgenerate
+- besides generate, for loop can also be used in initial, always blocks
